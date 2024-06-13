@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+<style>
+ .head{
+        background: url('./images/headerBg.png')no-repeat;
+        height: 12vh;
+        background-size: 100% 100%;
+        margin-bottom: 3vh;
+    }
+    .main{
+        height: 70vh;
+        background: rgba(217, 217, 217, 1);
+    }
+    .foot{
+        height: 15vh;
+        width: 100%;
+        background: rgba(184, 184, 180, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: center;
+
+    }
+    .nav{
+  display: flex;
+  list-style: none;
+ font-size: 28px;
+
+background: rgba(64, 64, 64, 1);
+
+}
+ul{
+  height: 70px;
+  margin: 0;
+}
+ul>li{
+  width: 200px;
+  height: 100%;
+}
+.nav li{
+    transition: all 0.3s ease;
+    color: #fff;
+  width: 100%;
+ 
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  line-height: 70px;
+  font-size: 20px;
+}
+.nav li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+ .nav .active {
+  color: #fff;
+  background: #afe596;
+ }
+
+</style>
+<body>
+    <div class="head"></div>
+    <div class="main">
+        <ul class="nav">
+            <li class="active"><a href="index.html"> Homepage</a></li>
+            <li><a href="support.html"> Support </a></li>
+            <li ><a href="Product.html">Product </a> </li>
+            <li><a href="about.html"> About us</a></li>
+            <li><a href="blog.html">News or Blog</a> </li>
+        </ul>
+        <div class="flex" style="height: calc(70vh - 40px);">
+            <div style="height: 100%;display: flex;align-items: center;flex: 1;justify-content: center;">
+                <img style="height: 60%;" src="./images/company1.png" alt="">
+            </div>
+            <div style="width: 60%;height: 100%;padding-right: 5%;">
+                <div style="height: 30%;width: 100%;background: #fff;margin-top: 10%;display: flex;justify-content: center;align-items: center;" class="font1">
+                    Technovision Pty Ltd is a leading seller of ICT equipment and computer products in Australia, located at 52 Goulburn Street in the heart of Sydney's CBD. We collaborate with top brands to offer our customers the finest electronics available.
+                </div>
+                <div class="flex" style="height: 30%;margin-top: 5%;">
+                    <div style="height: 100%;background: #fff;width: 45%;display: flex;justify-content: center;align-items: center;" class="font1">
+                        We offer a diverse range of IT products, including laptops, desktops, and accessories. No matter what your needs are, we have the right choice for you. We are committed to providing personalized recommendations and technical support to ensure a smooth shopping experience.
+                    </div>
+                    <div style="height: 100%;flex: 1;"></div>
+                    <div style="height: 100%;background: #fff;width: 45%;display: flex;justify-content: center;align-items: center;" class="font1">
+                        At Technovision Pty Ltd, we value each and every customer. We provide multiple contact channels, including phone, email, and live chat, to ensure you receive assistance whenever you need it. We promise to provide timely and effective solutions to make your shopping experience more enjoyable.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot" >
+        <img src="./images/company logo.png" alt="Footer Image" /> 
+        ©2024Lynn's product 1194041498@qq.com
+    </div>
+</body>
+</html>

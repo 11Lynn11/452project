@@ -1,0 +1,30 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow: auto;
+    
+}
+*{
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.font1{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: center;
+
+}
+.foot img {  
+    height: 100px; /* 图片高度，根据需要调整 */  
+    width: auto; /* 保持图片的原始宽高比 */  
+    margin-right: 10px; /* 图片和文本之间的间距 */  
+    vertical-align: middle; /* 图片与文本垂直对齐 */  
+    border-radius: 5px; /* 图片边框圆角 */  
+}  
